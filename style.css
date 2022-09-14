@@ -1,0 +1,144 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html{
+    line-height: 1.5;
+
+}
+body{
+    max-width: 1150px;
+    margin: 0 auto;
+}
+.header{
+    width: 100%;
+}
+
+.navbar{
+    width: 100%;
+    text-transform: uppercase;
+}
+
+.navbar-list{
+    display: flex;
+    justify-content:space-between;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 700;
+}
+
+.nav-item{
+    list-style-type: none;
+    flex-grow: 1;
+    text-align: center;
+    padding:20px;
+    background-color:#ccc;
+}
+.nav-item:hover a{
+    background-color:black;
+    color:white!important;
+}
+.nav-item:hover{
+    background-color:black;
+}
+.nav-item a{
+    color:#000;
+    text-decoration: none;
+}
+
+.sub-header{
+    display:flex;
+    justify-content:space-between;
+    font-family: 'Nunito', sans-serif;
+    
+}
+.logo{
+    font-weight: 700;
+    font-size: 25px;
+}
+
+.searchbar{
+    display:flex;
+    align-items:center;
+    font-weight: bold;
+}
+.searchbar input{
+    height:30px;
+    width: 250px;
+    margin-left:5px;
+}
+.logo h2{
+    display: inline-block;
+    font-size: 50px;
+}
+.logo h2 span{
+    color:rgb(226, 169, 12);
+}
+.logo>span{
+    opacity:0.4;
+}
+.content{
+    width: 100%;
+    /* height:500px; */
+    display:flex;
+    border:1px solid #ccc;
+}
+.main-content{
+    width:830px;
+    height:470px;
+    border:1px solid #ccc;
+}
+.main-content img{
+    width:830px;
+    height:470px;
+}
+.form-table input[type*="text"],[type*="email"],[type*="number"] {
+    height:30px;
+    width: 700px; 
+}
+.form-table input[type*="submit"],[type*="reset"] {
+    background-color: #000;
+    width: 80px;
+    height: 40px;
+    color:white;
+}
+.form-table td{
+    padding: 5px !important;
+}
+.form-table textarea {
+    width: 700px;
+    height:150px;
+}
+.small-content{
+    width:320px;
+    height:470px;
+    display: flex;
+    flex-wrap: wrap;
+    border:1px solid #ccc;
+
+}
+.small-img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border:1px solid #ccc;
+    margin:auto;
+}
+.small-img img{
+    width :150px; 
+    height:150px;
+}
+
+.footer{
+    border:1px solid #ccc;
+    margin:5px auto;
+    padding:5px;
+}
+.footer-header{
+    color:orange;
+
+}
+.footer p{
+    font-family: 'Nunito', sans-serif;
+    text-align:justify;
+}
