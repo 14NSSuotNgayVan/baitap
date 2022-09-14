@@ -31,17 +31,17 @@ body{
     list-style-type: none;
     flex-grow: 1;
     text-align: center;
-    padding:20px;
-    background-color:#ccc;
 }
 .nav-item:hover a{
+
     background-color:black;
     color:white!important;
 }
-.nav-item:hover{
-    background-color:black;
-}
 .nav-item a{
+    background-color:#ccc;
+    display:block;
+    width: 100%;
+    padding:20px;
     color:#000;
     text-decoration: none;
 }
